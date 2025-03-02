@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "talentlink_backened/wsgi.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "build_files.bat",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "static"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "talentlink_backened/wsgi.py"
+      }
+    ]
+  }

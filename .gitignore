@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff
+/media/
+staticfiles/
+*.log
+*.pot
+*.pyc
+
+# Ignore environment variables and secrets
+.env
+*.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Migrations (optional - keep this if you're resetting often)
+**/migrations/*
+
+# Ignore compiled/migrated files
+*.mo
+*.pyc
+__pycache__/
+
+# Logs & Debug
+logs/
+*.log
+debug.log
+
+# Cloudinary cache
+cloudinary_caches/
+
+# Ignore compiled CSS & JS if using frontend builds
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Ignore Docker files
+docker-compose.override.yml
+.envrc
